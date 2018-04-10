@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.engineersdream.ed_calculator.MainActivity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="Enter Value"
+        android:id="@+id/editText" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="Enter Value"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/editText2" />
+
+    <Button
+        android:text="ADD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addclick"
+        android:id="@+id/addition" />
+
+    <Button
+        android:text="SUB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="subclick"
+        android:id="@+id/substraction" />
+
+    <Button
+        android:text="MUL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mulclick"
+        android:id="@+id/multiplication" />
+
+    <Button
+        android:text="DIV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="divclick"
+        android:id="@+id/division" />
+
+    <TextView
+        android:text="TextView"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+
+</LinearLayout>
